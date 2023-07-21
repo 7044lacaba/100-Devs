@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+}
+h1, h2, span, p {
+    color: white;
+}
+
+body {
+    background-color: rgba(151, 204, 232, 1);
+}
+body section{
+    margin: 20px;
+    border: 4px solid rgba(112, 202, 77, 1);
+    padding: 30px;
+}
+
+a {
+    color: rgba(122, 202, 77, 1);
+}
+
+p {
+    width: 200px;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+}
