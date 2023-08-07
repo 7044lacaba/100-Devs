@@ -2,32 +2,33 @@ code {
   color: #666;
   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
 }
-div,
+section,
+.offset,
 .offset code {
   border-radius: 6px;
+  padding: 24px 30px;
 }
-div {
+section {
   background: #eaeaed;
-  height: 62px;
-  padding-top: 38px;
-  text-align: center;
-  width: 100px;
+  height: 145px;
+  position: relative;
+}
+.offset,
+.offset code {
+  height: 96px;
+  position: absolute;
+  width: 160px;
 }
 .offset {
-  background: none;
   border: 2px dashed #9799a7;
-  height: 100px;
-  padding: 0;
+  right: 0;
+  top: 0;
+
 }
 .offset code {
   background: #2db34a;
   color: #fff;
   display: block;
-  height: 74px;
-  left: 20px;
-  padding-top: 26px;
-  position: relative;
-  text-align: center;
+  right: 20px;
   top: 20px;
-  width: 100px;
 }
