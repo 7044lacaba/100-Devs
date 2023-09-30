@@ -115,7 +115,7 @@ body {
 }
 .group {
   clear: both;
-  *zoom: 1;
+  /* *zoom: 1; */
 }
 
 /*
@@ -372,4 +372,16 @@ p a {
 }
 .venue-map {
   height: 264px;
+}
+
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend {
+  list-style: square;
+  margin-bottom: 22px;
+  margin-left: 30px;
 }
