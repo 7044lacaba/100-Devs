@@ -115,7 +115,7 @@ body {
 }
 .group {
   clear: both;
-  /* *zoom: 1; */
+  *zoom: 1;
 }
 
 /*
@@ -234,6 +234,15 @@ p a {
   letter-spacing: .5px;
   margin: 0;
   text-transform: uppercase;
+}
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
 }
 .btn-alt {
   border: 1px solid #fff;
@@ -382,23 +391,16 @@ p a {
 
 .why-attend {
   list-style: square;
-  margin-bottom: 22px;
-  margin-left: 30px;
+  margin: 0 0 22px 30px;
 }
-
 form {
   margin-bottom: 22px;
 }
-
 input,
 select,
 textarea {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .register-group label {
   color: #648880;
   cursor: pointer;
@@ -424,14 +426,4 @@ textarea {
 }
 .register-group textarea {
   height: 78px;
-}
-
-.btn-default {
-  border: 0;
-  background: #648880;
-  padding: 11px 30px;
-  font-size: 14px;
-}
-.btn-default:hover {
-  background: #77a198;
 }
